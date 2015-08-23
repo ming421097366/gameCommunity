@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+         <script type="text/javascript" src="jQuery/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="MyJS/ServerURL.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+        <link type="text/css" rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shCore.css"/>
+        <link type="text/css" rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shThemeDefault.css"/>
+        <script type="text/javascript" src="MyJS/showList.js"></script>
+        <link type="text/css" rel="stylesheet" href="MyCSS/divCSS.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css1/layout2.css">
+        <script type="text/javascript" src="js/jquery.jqDock.min.js"></script>
+        <script type="text/javascript">
+		$(function(){
+			var jqDockOpts = {align: 'left', duration: 200, labels: 'tc', size: 48, distance: 85};
+			$('#jqDock').jqDock(jqDockOpts);
+		});
+	</script>
+    </head>
+    <body>
+        <div id="dockContainer">
+		<ul id="jqDock">
+			<li id="listLiID"><a class="dockItem" href="#"><img src="images/dock/home-sm.png" alt="Home" title="Example&nbsp;1" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/email-sm.png" alt="Contact" title="Example&nbsp;2" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/portfolio-sm.png" alt="portfolio" title="Example&nbsp;3" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/music-sm.png" alt="music" title="All&nbsp;Examples" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/video-sm.png" alt="video" title="Video" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/history-sm.png" alt="history" title="History" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/calendar-sm.png" alt="calendar" title="Calendar" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/link-sm.png" alt="links" title="Links" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/rss-sm.png" alt="rss" title="RSS" /></a></li>
+			<li><a class="dockItem" href="#"><img src="images/dock/rss2-sm.png" alt="rss" title="RSS" /></a></li>
+		</ul>
+	</div>
+        <div id="titleListDivID">                
+        </div>
+         <div>
+            <div id="titleDivID">
+                
+            </div>
+            <div id="textDivID">
+            
+            </div>
+            <div id="upNumDivID"></div>
+            
+            <div id="reviewsNumDivID"></div>
+            
+            <div id="reviewDivID">
+            
+            </div>
+            <div id="reviewWriteDivID">
+
+            </div>
+            <div id="upWriteDivID">
+
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+
+#mapDivID
+{
+    left: 530px;
+    top: 100px;
+    position: relative;//这里一定要用relative，为什么啊
+    background: #ddd;
+    border: 1px solid #888;
+    display: none;//开始隐藏，初始化后才展示
+}
+#menu
+{
+    position: absolute;
+    left: 550px;
+    top: 60px;
+}
+
+#subMenu
+{
+    position: absolute;
+    left: 550px;
+    top: 80px;
+}
+
+#mapDivID div
+{
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    
+    border: 1px solid #888;
+    
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.hidden
+{
+    background: url(image/1.png);
+}
+
+.flag
+{
+    background: url(image/2.png);
+}
+
+.wrong
+{
+    background: url(image/5.png);
+}
+
+.bomb
+{
+    background: url(image/6.png);
+}
+
+.cbomb
+{
+    background: url(image/6.png) #ff0000;
+}
+
+
+.num1{color:#0000ff;}
+.num2{color:#008000;}
+.num3{color:#ff0000;}
+.num4{color:#000080;}
+.num5{color:#800000;}
+.num6{color:#008080;}
+.num7{color:#000000;}
+.num8{color:#808080;}

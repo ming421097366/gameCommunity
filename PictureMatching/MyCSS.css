@@ -1,0 +1,124 @@
+#boardDivID
+{
+    left:100px;
+    position: relative;//这里一定要用relative，为什么啊
+    background: #ddd;
+   // border: 1px solid #888;
+    display: none;//开始隐藏，初始化后才展示
+    cursor:default;
+}
+
+#boardDivID div
+{
+    position: absolute;
+    
+    width: 60px;
+    height: 60px;
+    
+    border: 1px solid #888;
+    
+    font-weight: bold;
+    text-align: center;
+    cursor:default;
+    
+}
+
+.selected
+{
+    //background: blue;
+    border: 2px solid red;
+    
+}
+
+
+/*.num0{color:#000000;}
+.num1{color:#0000ff;}
+.num2{color:#008000;}
+.num3{color:#ff0000;}
+.num4{color:#000080;}
+.num5{color:#800000;}
+.num6{color:#008080;}
+.num7{color:#000000;}
+.num8{color:#808080;}*/
+
+
+.num0
+{
+    background: url(image/005.jpg);
+}
+.num1
+{
+    background: url(image/apple.png);
+}
+.num2
+{
+    background: url(image/banana.png);
+}
+
+.num3
+{
+    background: url(image/boluo.png);
+}
+
+.num4
+{
+    background: url(image/caomei.png);
+}
+
+
+.num5
+{
+    background: url(image/chengzi.png);
+}
+.num6
+{
+    background: url(image/hamigua.png);
+}
+.num7
+{
+    background: url(image/mihoutao.png);
+}
+.num8
+{
+    background: url(image/ningmeng.png);
+}
+.num9
+{
+    background: url(image/putao.png);
+}
+.num10
+{
+    background: url(image/qinggua.png);
+}
+.num11
+{
+    background: url(image/qingputao.png);
+}
+.num12
+{
+    background: url(image/shenma.png);
+}
+.num13
+{
+    background: url(image/shenma2.png);
+}
+.num14
+{
+    background: url(image/shenma3.png);
+}
+.num15
+{
+    background: url(image/taozi.png);
+}
+.num16
+{
+    background: url(image/xigua.png);
+}
+.num17
+{
+    background: url(image/yingtao.png);
+}
+.num18
+{
+    background: url(image/zhadan.png);
+}

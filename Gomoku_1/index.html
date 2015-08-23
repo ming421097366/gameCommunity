@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gomoku</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="../support/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+        <script type="text/javascript" src="../support/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="../support/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+        <script type="text/javascript" src="GameMain.js"></script>
+        <script type="text/javascript" src="AISimple.js"></script>
+        <script type="text/javascript" src="remote.js"></script>
+        <script type="text/javascript" src="../MyJS/ServerURL.js"></script>
+        <script type="text/javascript" src="../MyJS/FriendDialog.js"></script>
+        <link rel="stylesheet" href="../support/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+        
+        <style type="text/css">
+            body
+            {
+                margin: 10px;
+                background: url(image/wood.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <div style="left:1000px;position: absolute;">
+            <button id="humanTohuman">人人对战</button>
+            <button id="hunmanToComputer">人机对战</button>
+            <button id="remote">远程对战</button>
+        </div>
+        <div>
+            <canvas width="600" height="600" id="canvasID" style="left:350px;position: absolute;" >
+            </canvas>
+        </div>
+      
+        
+        
+        
+    </body>
+</html>

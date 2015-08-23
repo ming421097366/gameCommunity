@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Snake</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" media="screen" href="myCss.css">
+        <script type="text/javascript" src="jQuery/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="js/SnakeNode.js"></script>
+        <script type="text/javascript" src="js/Assist.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body background="9.png">
+        <div style="left:300px; position: absolute; top: 10px; ">
+            <canvas id="mainPanel" width="480" height="480" style="border: 5px solid green;">
+                <!--不可以用CSS控制 canvas-->
+            </canvas>
+        </div>
+        <div>
+            <button id="restart">重新开始</button>
+            <button id="pause">暂停</button>
+            <button id="cancel">取消暂停</button>
+        </div>
+    </body>
+</html>

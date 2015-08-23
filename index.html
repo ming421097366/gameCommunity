@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<title>游戏交流社区</title>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+        <script type="text/javascript" src="jQuery/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="MyJS/ServerURL.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+        <link type="text/css" rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shCore.css"/>
+        <link type="text/css" rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shThemeDefault.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/layout2.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/dock-example2.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="MyCSS/myCSS.css">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/slider.jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jqDock.min.js"></script>
+        <script type="text/javascript" src="MyJS/loginDialog.js"></script>
+        <script type="text/javascript" src="MyJS/showList.js"></script>
+        
+        
+	<script type="text/javascript">
+		$(function(){
+			var jqDockOpts = {align: 'left', duration: 200, labels: 'tc', size: 48, distance: 85};
+			$('#jqDock').jqDock(jqDockOpts);
+		});
+         </script>
+
+        
+</head>
+<body>
+	<div class="wrap background">
+		<div id="header">
+			<div id="logo">
+                                <img src="images/bg/000.png">
+<!--				<a href="#">游戏交流社区<br />CSU</a>
+-->				<h2 id="slogan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简易的游戏讨论社区</h2>
+
+			</div>
+			<ul id="feature_menu">		
+                            <li><a href="login.html" id="login">登录</a></li>
+                                <li><a href="#">关于</a></li>
+			</ul>
+                    <div id="feature">
+    			<div id="slider">
+                            <img src="images/bg/22.png" alt="1" title="" />
+                            <img src="images/bg/333.png" alt="2" title="" />
+                            <img src="images/bg/555.png" alt="3" title="" />
+                            <img src="images/bg/666.png" alt="4" title="" />
+                            <img src="images/bg/777.png" alt="5" title="" />
+                            <img src="images/bg/888.png" alt="6" title="" />
+			</div>
+                      </div>
+		</div><!-- end div #header -->
+		<div id="search">
+                    <form action="http://www.baidu.com/">
+				<fieldset>
+<!--					 WHY DO I NEED LEGEND? -->
+					<legend></legend>
+					<input type="text" class="field" value="Search Keywords">
+					<input type="submit" class="button" value="">
+				</fieldset>
+			</form>
+                    </div>
+<!--		</div> //end div #search -->
+		<div id="left">
+                        <div id="titleDivID">
+			<h1><a href="#">大标题</a></h1>
+                        </div>
+                        <div id="dateDivID">
+			<p class="date"><span>日期</span><br />月份</p>
+                        </div>
+                        <div id="subtitleDivID">
+                        <p class="subtitle">小标题</p>
+                        </div>		
+                        <div id="textDivID">
+			<p>
+                           正文
+                       </p>
+                        </div>		
+                        <div id="upNumDivID">                        
+                        </div>
+                        <div id="upAddDivID">
+                         </div>
+                        <div id="reviewsNumDivID">
+                            <a class="more" href="#">评论[12]</a>
+                        </div>
+<!--                        <a class="more" href="#">&not; SHARE</a> -->
+                        <div id="reviewDivID">
+                        </div>
+                        <div id="reviewWriteDivID">
+                        </div>
+                        
+                        
+		</div><!-- end div #left -->
+		
+		<div id="side">
+			<div class="boxtop"></div>
+                        <div class="box" >
+                            <h1>文章目录</h1>
+                            <div id="titleListDivID">
+                            
+                            </div>
+			</div><!-- end div .box -->
+			<div class="boxbottom"></div>
+		</div><!-- end div #side -->
+                
+		<p id="ad">分享</p>
+	</div><!-- end div .wrap -->
+	
+	<div id="promo">
+		<div class="wrap">	
+		</div> 
+	</div>
+        
+
+	
+	<div id="dockContainer">
+		<ul id="jqDock">
+			<li id="listLiID"><a  href="#"><img src="images/dock/home-sm.png" alt="Home" title="Home" /></a></li>
+                        <li><a  href="Editor.php" target="_blank" ><img src="images/editor.png" alt="Editor" title="Editor" /></a></li>
+                        <li><a  href="Gomoku_1/index.html" target="_blank"><img src="images/Gomoko.png" alt="Gomoku" title="Gomoku" /></a></li>
+                        <li><a  href="MineSweeper/index.html" target="_blank"><img src="images/bg/sailei22.png" alt="mineSweeper" title="mineSweeper" /></a></li>
+                        <li><a  href="PictureMatching/index.html" target="_blank"><img src="images/pictureMatching.png" alt="pictureMatch" title="pictureMatch" /></a></li>
+                        <li><a  href="Plane/index.html" target="_blank"><img src="images/plane.png" alt="plane" title="plane" /></a></li>
+                        <li><a  href="Snake/index.html" target="_blank"><img src="images/Snake.png" alt="Snake" title="Snake" /></a></li>
+                        <li><a  href="Tetris/index.html" target="_blank"><img src="images/Tetris.png" alt="Tetris" title="Tetris" /></a></li>
+			<li><a  href="#"><img src="images/dock/rss-sm.png" alt="rss" title="RSS" /></a></li>
+			<li><a  href="#"><img src="images/dock/rss2-sm.png" alt="rss" title="RSS" /></a></li>
+		</ul>
+	</div>
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        <script  type="text/javascript">
+	
+        $( '#slider' ).lateralSlider( {
+            captionPadding: '0',
+            captionHeight: 45
+                            } );
+        </script>
+        
+        
+</body>
+</html>

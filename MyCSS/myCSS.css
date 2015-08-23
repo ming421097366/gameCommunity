@@ -1,0 +1,19 @@
+
+
+#textDivID
+{
+    min-height:250px;
+    max-height:500px;
+    overflow-y:auto;
+    
+    
+}
+
+
+
+.ui-widget-header {
+border: 1px solid blue;
+background: blue url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+color: black;
+font-weight: bold;
+}

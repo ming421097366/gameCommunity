@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tetris</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="jQuery/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="js/Map.js"></script>
+        <script type="text/javascript" src="js/Box.js"></script>
+        
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body background="1.png" style="overflow-y:hidden;" >
+        <div style="top:0px;left:400px; position: absolute;">
+            <canvas id="canvasID" width="240" height="600"  ></canvas>
+        </div>
+        <div style="top:500px;left:680px; position: absolute;">
+            <button id="start">开始</button>
+            <button id="pause">暂停</button>
+            <button id="cancelPause">恢复暂停</button>
+        </div>
+    </body>
+</html>
